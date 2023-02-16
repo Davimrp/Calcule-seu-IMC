@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+.dados{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+}
+
+.right{
+  margin-right: 30px;
+}
+.left{
+  margin-left: 30px;
+}
+
+.paragrafo-resultado{
+  width: 100%;
+  background-color: rgb(47, 255, 193);
+}
+
+#resultado p{
+  padding: 10px 20px;
+}
+
+.esconde{
+  display: none;
+}
+
+.red{
+  width: 100%;
+  background-color: rgb(240, 136, 136);
+}
+
+
+@media screen and (max-width: 628px) {
+  .right{
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 516px) {
+  .dados{
+    font-size: 1.1rem;
+  }
+
+  h1{
+    font-size: 1.5rem;
+  }
+
+  h2{
+    font-size: 1.3rem;
+  }
+
+  form{
+    font-size: 1rem;
+  }
+
+  #resultado p{
+    font-size: 1.2rem;
+  }
+
+  input[type=text]{
+    font-size: 1.5rem;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .dados{
+    font-size: 0.9rem;
+  }
+
+  h1{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  h2{
+    font-size: 1.1rem;
+  }
+
+  form{
+    font-size: .9rem;
+  }
+
+  #resultado p{
+    font-size: 1rem;
+  }
+
+  input[type=text]{
+    font-size: 1.4rem;
+  }
+
+}
