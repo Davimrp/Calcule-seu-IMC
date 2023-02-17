@@ -1,6 +1,12 @@
 # Calcule seu IMC
 >Exercício de fixação
 
+
+
+https://user-images.githubusercontent.com/119756640/219518029-0ab56b30-3e98-4367-a758-f68cf0c26ce3.mp4
+
+
+
 ### 🚀 Surgimento do projeto
 Este projeto é um exercício do curso "Javascript e TypeScript - front-end e back-end (Full Stack) - Node, Express, noSQL, React, hooks, Redux, Design Patterns" na Udemy.
 
