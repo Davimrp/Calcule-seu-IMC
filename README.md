@@ -13,7 +13,7 @@ Este projeto é um exercício do curso "Javascript e TypeScript - front-end e ba
 <hr>
 
 ### 📋 Descrição do projeto
-Trata-se de uma calculadora de IMC. Considero um projeto simples, mas que traz muitos conhecimentos sobre o uso correto de arrays, funções, traz a importância das separações minúnciosas das funções para facilitar em uma eventual busca por bugs, além de muitos outros aprendizados que vão sendo passados durante a correção do exercício.
+Trata-se de uma calculadora de IMC. Considero um projeto simples, mas que traz muitos conhecimentos sobre o uso correto de arrays, funções, traz a importância das separações minunciosas das funções para facilitar em uma eventual busca por bugs, além de muitos outros aprendizados que vão sendo passados durante a correção do exercício.
 
 <hr>
 
